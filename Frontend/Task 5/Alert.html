@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eligibility To Enter in College During Navratri</title>
+</head>
+<body>
+
+    <h2>Eligibility To Enter in College During Navratri</h2>
+
+    <script>
+        let day = prompt("Enter the day of the month:");
+        day = Number(day);
+
+        if (Number.isFinite(day) && Number.isInteger(day) && day >= 11 && day < 19) {
+           let result = "You are eligible to enter college during Navratri.";
+            alert(result);
+            document.write("<p>Day: " + day + "</p>");
+            document.write("<p>" + result + "</p>");
+
+        } else {
+            let result = "Entry is allowed only from day 11 to day 18.";
+            alert(result);
+            document.write("<h3>Entry Denied!</h3>");
+            document.write("<p>" + result + "</p>");
+        }
+    </script>
+
+</body>
+</html>
