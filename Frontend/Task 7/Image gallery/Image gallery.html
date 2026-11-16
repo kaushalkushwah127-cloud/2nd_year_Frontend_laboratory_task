@@ -1,0 +1,21 @@
+<html>
+<body>
+
+<h2>Image Gallery</h2>
+
+<img id="main" src="IMAGES/image1.jpg" width="300">
+
+<br><br>
+<img src="IMAGES/image1.jpg" width="80" onclick="change(this)">
+<img src="IMAGES/image2.jpg" width="80" onclick="change(this)">
+<img src="IMAGES/image3.jpg" width="80" onclick="change(this)">
+<img src="IMAGES/image4.webp" width="80" onclick="change(this)">
+
+<script>
+function change(img) {
+    document.getElementById("main").src = img.src;
+}
+</script>
+
+</body>
+</html>
