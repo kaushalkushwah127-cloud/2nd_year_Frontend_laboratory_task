@@ -1,0 +1,33 @@
+
+<html>
+<body>
+
+<h2>Counter Application</h2>
+
+<h3 id="count">0</h3>
+
+<button onclick="increment()">Increment</button>
+<button onclick="decrement()">Decrement</button>
+<button onclick="reset()">Reset</button>
+
+<script>
+let num = 0;
+
+function increment() {
+    num++;
+    document.getElementById("count").innerHTML = num;
+}
+
+function decrement() {
+    num--;
+    document.getElementById("count").innerHTML = num;
+}
+
+function reset() {
+    num = 0;
+    document.getElementById("count").innerHTML = num;
+}
+</script>
+
+</body>
+</html>
