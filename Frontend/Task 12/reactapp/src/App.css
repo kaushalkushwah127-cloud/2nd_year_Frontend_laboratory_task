@@ -1,0 +1,63 @@
+
+/* Overall Page */
+body {
+    font-family: Arial, sans-serif;
+    background: #f4f4f8;
+    margin: 0;
+    padding: 40px 20px;
+}
+
+/* Main Container */
+#root {
+    max-width: 750px;
+    margin: auto;
+}
+
+/* Main Heading */
+h1 {
+    background: #312e81;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 25px;
+}
+
+/* Content Section */
+#root > div {
+    background: white;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+}
+
+/* Sub Headings */
+h2 {
+    color: #4338ca;
+    border-bottom: 2px solid #e0e7ff;
+    padding-bottom: 8px;
+}
+
+/* Paragraph */
+p {
+    font-size: 17px;
+    color: #374151;
+    padding: 5px;
+    margin: 8px 0;
+}
+
+/* Footer */
+h3 {
+    text-align: center;
+    color: #312e81;
+    background: #eef2ff;
+    padding: 15px;
+    border-radius: 8px;
+}
+
+/* Horizontal Line */
+hr {
+    border: none;
+    border-top: 2px solid #e5e7eb;
+    margin: 25px 0;
+}
